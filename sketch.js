@@ -39,3 +39,6 @@ function draw() {
   ellipse(pippox, pippoy, 15);}
 }
 }
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
